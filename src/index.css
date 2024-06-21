@@ -7,5 +7,10 @@ html {
 }
 
 * {
+  background-color: #77915f;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: 'Biryani', Arial, Helvetica, sans-serif;
 }
