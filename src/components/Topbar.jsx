@@ -6,15 +6,14 @@ export default function Topbar() {
 
   return (
     <nav className="bg-white shadow-lg">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-full p-2">
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
-            <img className="h-8 w-8" src="/logo.png" alt="Logo" />
-            <span className="ml-2 text-xl font-bold">Brand</span>
+            <span className="ml-6 text-xl font-bold">Portfolio</span>
           </div>
           <div className="hidden md:flex md:items-center md:space-x-4">
-            <button className='px-6 mx-auto py-2 rounded-md border-[2px] bg-slate-220 border-blue-650 border-solid blueShadow duration-200'>
-              <a href="#" className="text-gray-800 hover:text-gray-600">Home</a>
+            <button className='px-6 mx-auto py-2 rounded-md border-[2px] border-solid bg-slate-220 border-gray-300 group hover:bg-slate-300 duration-300'>
+              <a href="#" className="text-gray-900 group-hover:bg-slate-300 duration-300">Home</a>
             </button>
             <a href="#" className="text-gray-800 hover:text-gray-600">About</a>
             <a href="#" className="text-gray-800 hover:text-gray-600">Services</a>
