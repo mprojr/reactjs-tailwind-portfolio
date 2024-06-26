@@ -5,7 +5,7 @@ export default function Topbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="bg-white shadow-lg">
+    <nav className="shadow shadow-lime-900rounded-sm">
       <div className="max-w-full p-2">
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">

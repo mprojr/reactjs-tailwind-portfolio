@@ -6,8 +6,8 @@ html {
   scroll-behavior: smooth;
 }
 
-* {
-  background-color: #77915f;
+body {
+  background: linear-gradient(to right, #77915f, #a3bc8a);
   font-family: Arial, Helvetica, sans-serif;
 }
 
