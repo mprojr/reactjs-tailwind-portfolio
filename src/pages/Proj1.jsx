@@ -1,12 +1,12 @@
-import React from 'react'
-import ProjLayout from '../layout/ProjLayout'
+import React from 'react';
+import ProjLayout from '../layout/ProjLayout';
 
-function proj1() {
+function Proj1() {
   return (
     <ProjLayout>
-      <div>PROJ1</div>
+      
     </ProjLayout>
-  )
+  );
 }
 
-export default proj1
+export default Proj1;
