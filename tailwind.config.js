@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -9,8 +9,16 @@ export default {
       colors: {
         'custom-green': '#77915f',
         'custom-green-light': '#a3bc8a',
-      }
-    }
+      },
+      blur: {
+        'xs': '2px',
+      },
+    },
   },
-  plugins: [],
-}
+  plugins: [
+    function({ addVariant }) {
+      addVariant('group1-hover', '.group1:hover &');
+      addVariant('group2-hover', '.group2:hover &');
+    },
+  ],
+};
