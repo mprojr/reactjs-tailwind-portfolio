@@ -21,6 +21,9 @@ export default function Projects() {
               >
                   <i className="fa-brands fa-github text-3xl text-black"></i>
               </div>
+              <div className='absolute top-[-2rem] left-1/2 transform -translate-x-1/2 bg-black bg-opacity-40 text-center text-white text-lg font-bold opacity-0 group2-hover:opacity-100 delay-200 duration-200 rounded-2xl'>
+                {project.title}
+              </div>
             </Link>
           </div>
         ))}
