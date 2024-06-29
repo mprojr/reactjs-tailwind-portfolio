@@ -3,7 +3,7 @@ import proj1Thumbnail from '../assets/img/thumbnail1.png';
 export const projects = [
   {
     id: 1,
-    title: 'Chrome Web App',
+    title: 'Web Chrome App',
     image: proj1Thumbnail,
     detailsPage: '/project1',
     githubLink: '/lead-chrome-ext'
