@@ -9,4 +9,7 @@ export default defineConfig({
       external: ['react-simple-typewriter'],
     },
   },
+  build: {
+    sourcemap: true,
+  },
 });
