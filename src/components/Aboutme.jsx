@@ -5,7 +5,7 @@ import img2720 from '../assets/img/pfp.jpg'
 export default function Aboutme() {
   return (
     <div className='text-black'>
-      <div className='max-w-[800px] py-[100px] m-auto w-full h-screen text-center flex flex-col'>
+      <div className='max-w-[700px] py-[20px] m-auto w-full min-h-screen text-center flex flex-col'>
 
         <div className='m-4 grid grid-col-6 '>
           <img src={img2720} alt='pfp' className='border-2 p-1 border-white col-span-4 w-56 h-56 rounded-full object-cover shadow-lg mx-auto hover:blur-sm duration-500'/>
