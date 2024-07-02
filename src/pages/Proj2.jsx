@@ -18,7 +18,7 @@ function Proj2() {
 
           {/* Image Section */}
           <div className="flex justify-center py-2 mt-6">
-            <img src={proj2Image} alt="Project 2 Screenshot" className="w-4/6 h-auto rounded-2xl shadow-lg border-2"/>
+            <img src={proj2Image} alt="Project 2 Screenshot" className="md:w-4/6 h-auto rounded-2xl shadow-lg border-2"/>
           </div>
 
           {/* Two Column Grid */}
