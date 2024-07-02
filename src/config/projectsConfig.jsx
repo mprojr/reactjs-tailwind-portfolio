@@ -1,5 +1,7 @@
 import proj1Thumbnail from '../assets/img/thumbnail1.png';
 import proj2Thumbnail from '../assets/img/thumbnail2.png'
+import proj3Thumbnail from '../assets/img/thumbnail3.png'
+import proj4Thumbnail from '../assets/img/thumbnail4.png'
 
 export const projects = [
   {
@@ -18,16 +20,16 @@ export const projects = [
   },
   {
     id: 3,
-    title: 'Project 3',
-    image: 'path/to/image3.jpg',
+    title: 'Year % Tracker',
+    image: proj3Thumbnail,
     detailsPage: '/project3',
-    githubLink: 'https://github.com/your-github-username/project3'
+    githubLink: '/Current-Year-Progress'
   },
   {
     id: 4,
-    title: 'Project 4',
-    image: 'path/to/image4.jpg',
+    title: 'Unix Pipe Parsing',
+    image: proj4Thumbnail,
     detailsPage: '/project4',
-    githubLink: 'https://github.com/your-github-username/project4'
+    githubLink: '/Unix-Pipe-Parsing'
   }
 ];

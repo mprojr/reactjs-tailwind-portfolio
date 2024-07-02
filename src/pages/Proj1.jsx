@@ -9,7 +9,7 @@ function Proj1() {
         
         {/* Text Section */}
         <div className="relative z-10 p-4">
-        <h2 className="text-4xl font-extrabold mb-4 text-custom-green-dark drop-shadow-lg decoration-custom-green-light decoration-4">
+        <h2 className="text-4xl font-extrabold mb-5 text-custom-green-dark drop-shadow-lg underline decoration-custom-green-light decoration-4">
             Chrome Extension - Lead Tracker
           </h2>
           <p className="text-lg mb-4">

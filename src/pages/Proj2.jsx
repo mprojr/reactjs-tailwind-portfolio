@@ -9,11 +9,11 @@ function Proj2() {
         
         {/* Text Section */}
         <div className="relative z-10 p-4">
-          <h2 className="text-4xl font-extrabold mb-4 text-custom-green-dark drop-shadow-lg decoration-custom-green-light decoration-4">
+          <h2 className="text-4xl font-extrabold mb-5 text-custom-green-dark drop-shadow-lg underline decoration-custom-green-light decoration-4">
             Personal Portfolio Website
           </h2>
           <p className="text-lg mb-4">
-            This project is a comprehensive portfolio website designed to showcase my skills, experiences, and projects. The website includes detailed information about myself, my background in computer science, and the various personal projects I have worked on. It serves as a professional platform where potential employers and collaborators can learn more about my capabilities and the work I have accomplished. This portfolio is an essential tool in my job search, helping to demonstrate my expertise and passion for web development.
+            This project is a comprehensive portfolio website designed to showcase my skills, experiences, and projects. The website includes detailed information about myself, my background in computer science, and the various personal projects I have worked on. It serves as a professional platform where potential employers and collaborators can learn more about my capabilities and the work I have accomplished. This portfolio is an essential tool in my job search, helping to demonstrate my expertise and passion for development.
           </p>
 
           {/* Image Section */}
