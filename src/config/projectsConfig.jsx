@@ -1,4 +1,5 @@
 import proj1Thumbnail from '../assets/img/thumbnail1.png';
+import proj2Thumbnail from '../assets/img/thumbnail2.png'
 
 export const projects = [
   {
@@ -10,10 +11,10 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Project 2',
-    image: 'path/to/image2.jpg',
+    title: 'Portfolio Website',
+    image: proj2Thumbnail,
     detailsPage: '/project2',
-    githubLink: 'https://github.com/your-github-username/project2'
+    githubLink: '/reactjs-tailwind-portfolio'
   },
   {
     id: 3,

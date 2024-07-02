@@ -9,14 +9,16 @@ function Proj1() {
         
         {/* Text Section */}
         <div className="relative z-10 p-4">
-          <h2 className="text-3xl font-bold mb-4">Chrome Extension - Lead Tracker</h2>
+        <h2 className="text-4xl font-extrabold mb-4 text-custom-green-dark drop-shadow-lg decoration-custom-green-light decoration-4">
+            Chrome Extension - Lead Tracker
+          </h2>
           <p className="text-lg mb-4">
             The Lead Tracker Chrome Extension is a simple and efficient tool designed to help users save and manage web links directly from their browser. The extension allows users to store URLs from the current tab, add custom URLs, and delete all saved links. This project demonstrates the integration of JavaScript with the Chrome API, local storage, and a responsive UI using basic HTML and CSS.
           </p>
 
         {/* Image Section */}
         <div className="flex justify-center py-2 mt-6">
-          <img src={proj1Image} alt="Project 1 Screenshot" className=" w-4/6 h-auto rounded-2xl shadow-lg"/>
+          <img src={proj1Image} alt="Project 1 Screenshot" className=" w-4/6 h-auto rounded-2xl shadow-lg border-2"/>
         </div>
 
           {/* Two Column Grid */}
