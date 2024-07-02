@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter';
-import img2720 from '../assets/img/IMG_2720.jpg'
+import img2720 from '../assets/img/pfp.jpg'
 
 export default function Aboutme() {
   return (
