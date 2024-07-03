@@ -14,9 +14,8 @@ export default function Aboutme() {
         </div> 
         <h1 className='uppercase py-2 text-gray-950 font-bold lg:text-4xl md:text-3xl sm:text-2xl text-2xl'>Martin Rodriguez</h1>
         <div className='sm:text-lg md:text-xl lg:text-2xl text-gray-300 font-bold p-3 min-h-[40px]' style={{ height: '40px' }}>
-          <span>I am </span>
           <Typewriter
-            words={['a Developer and Programmer.']}
+            words={['Developer and Programmer.']}
             loop={true}
             typeSpeed={70}
             deleteSpeed={50}
