@@ -5,6 +5,11 @@ import Proj1 from './pages/Proj1.jsx';
 import Proj2 from './pages/Proj2.jsx';
 import Proj3 from './pages/Proj3.jsx';
 import Proj4 from './pages/Proj4.jsx';
+import AboutPage from './pages/AboutPage.jsx';
+import Aboutme from './components/Aboutme.jsx';
+import MidSkipper from './components/MidSkipper.jsx'
+import Projects from './components/Projects.jsx';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,6 +21,19 @@ const router = createBrowserRouter([
     path: '/',
     element: <App />,
     children: [
+      {
+        path: '/',
+        element: 
+        <>
+        <Aboutme/>
+        <MidSkipper />
+        <Projects />
+        </>,
+      },
+      {
+        path: 'about',
+        element: <AboutPage />,
+      },
       {
         path: 'project1',
         element: <Proj1 />,

@@ -32,7 +32,7 @@ export default function Aboutme() {
           </a>
 
           <div className='py-8 grid grid-cols-12 gap-4'>
-            <span className='group border-2 border-d bg-gradient-to-t from-[#a3bc8a] to-[#77915f] opacity-85 min-h-[100px] p-4 rounded-md shadow sm:col-span-7 col-span-12'>
+            <span className='group border-2 border-d bg-gradient-to-t from-[#a3bc8a] to-[#77915f] opacity-85 min-h-[100px] p-4 rounded-xl shadow sm:col-span-7 col-span-12'>
               <p className='text-md text-black text-center font-extrabold'>Hi, I am <span className=' text-gray-200'>Martin Rodriguez,</span> a passionate <span className=' text-gray-20'>Web Developer and Programmer</span> from <span className=' text-gray-200'>Houston, TX.</span> With a background in <span className=' text-gray-200'>Computer Science,</span> I have honed my skills in various <span className=' text-gray-200 text'>programming languages</span> and technologies to build <span className='text-gray-200 group-hover:text-gray-700 transition duration-300'>robust and scalable </span>applications.</p>
             </span>
             <span className='flex flex-center justify-center border-2 border-solid bg-gradient-to-t from-[#a3bc8a] to-[#77915f] min-h-[100px] rounded-xl bg-black shadow sm:col-span-5 col-span-12 p-4'>
