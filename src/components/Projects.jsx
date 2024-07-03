@@ -14,7 +14,7 @@ export default function Projects() {
         {projects.map(project => (
           <div key={project.id} className='relative border border-spacing-1 h-[200px] transparent rounded-md overflow-hidden'>
             <Link to={project.detailsPage} className='fill-transparent w-full h-full group2'>
-              <img src={project.image} alt={project.title} className='blur-xs group1-hover:blur-0 duration-100 w-full h-full object-cover rounded-md' />
+              <img src={project.image} alt={project.title} className='sm:blur-xs group1-hover:blur-0 duration-100 w-full h-full object-cover rounded-md' />
               <div 
                 className='absolute bottom-2 right-2 opacity-0 group2-hover:opacity-100 duration-200 cursor-default'
                 onClick={() => handleGitHubClick(`https://github.com/mprojr/${project.githubLink}`)}
