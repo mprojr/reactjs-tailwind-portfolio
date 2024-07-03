@@ -1,23 +1,61 @@
-import React from 'react'
-import MainLayout from '../layout/MainLayout'
+import React from 'react';
+import MainLayout from '../layout/MainLayout';
 
 function AboutPage() {
   return (
     <MainLayout>
-      <h1 className='uppercase py-2 text-gray-950 font-bold lg:text-4xl md:text-3xl sm:text-2xl text-2xl'>About Me</h1>
-      <div className='text-left'>
-        <p className='text-lg mb-4'>
-          Hello, I am Martin Rodriguez, a passionate Web Developer and Programmer from Houston, TX. With a background in Computer Science, I have honed my skills in various programming languages and technologies to build robust and scalable applications.
-        </p>
-        <p className='text-lg mb-4'>
-          I specialize in front-end development using React.js and Tailwind CSS, and have experience in back-end development with Node.js and Express. My projects reflect my dedication to continuous learning and improvement in the field of web development.
-        </p>
-        <p className='text-lg mb-4'>
-          Outside of coding, I enjoy exploring new technologies, reading tech blogs, and contributing to open-source projects. I am always eager to take on new challenges and collaborate with like-minded professionals.
-        </p>
+      <div className="relative p-6 max-w-5xl mx-auto mt-10 bg-white bg-opacity-55 rounded-lg shadow-lg">
+        <div className="relative z-10 p-4">
+          <h1 className="text-4xl font-bold mb-6">About Me</h1>
+          <p className="text-lg mb-6">
+            Hi, I am Martin Rodriguez, a Web Developer and Programmer from Houston, TX. Currently, I am pursuing my studies in Computer Science with a minor in Software Engineering at the University of Houston. My enthusiasm for learning new technologies and programming languages drives me to continuously improve and tackle challenging projects. I strive to understand every situation deeply and am an active listener, always eager to collaborate and grow.
+          </p>
+
+          <section className="mb-8">
+            <h3 className="text-3xl font-semibold mb-4">Leadership Principles</h3>
+            <ul className="list-disc list-inside ml-6 space-y-2">
+              <li>
+                <strong>Promote Internal Critique, Support Unified Action:</strong> I encourage questioning and critical thinking within the team, but once a decision is made, I fully support and champion it externally.
+              </li>
+              <li>
+                <strong>Listening before acting:</strong> I listen to understand and incorporate feedback.
+              </li>
+              <li>
+                <strong>I hope to be predictable:</strong> I strive to be consistent in principles and predictable for the team.
+              </li>
+              <li>
+                <strong>Directed Independence:</strong> I work with the team to define roadblocks and solve new ideas.
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 className="text-3xl font-semibold mb-4">Working Style Preferences</h3>
+            <ul className="list-disc list-inside ml-6 space-y-2">
+              {/* <li>
+                <strong>Emails vs. Slack:</strong> Email for action items, Slack for discussions.
+              </li> */}
+              <li>
+                <strong>I prioritize constructive feedback:</strong> Feedback sessions are structured 10% on positives and 90% on improvement areas.
+              </li>
+              <li>
+                <strong>Direct communication:</strong> I prefer direct communication to avoid misunderstandings.
+              </li>
+              <li>
+                <strong>More communication &gt; less communication:</strong> I prefer receiving regular updates.
+              </li>
+              <li>
+                <strong>I love asking questions:</strong> Asking questions helps me understand logic and decisions.
+              </li>
+              <li>
+                <strong>I am a visual learner:</strong> Visualization helps me understand connections.
+              </li>
+            </ul>
+          </section>
+        </div>
       </div>
     </MainLayout>
-  )
+  );
 }
 
-export default AboutPage
+export default AboutPage;
