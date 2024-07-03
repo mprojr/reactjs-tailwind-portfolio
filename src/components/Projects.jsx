@@ -12,9 +12,9 @@ export default function Projects() {
     <div className='group1 h-[80vh] p-6 m-4'>
       <div className='h-[300px] w-full grid py-6 gap-6 md:grid-cols-4 sm:grid-cols-3 grid-cols-2'>
         {projects.map(project => (
-          <div key={project.id} className='relative border border-spacing-1 h-[200px] transparent rounded-xl overflow-hidden'>
+          <div key={project.id} className='relative border border-spacing-1 h-[200px] transparent rounded-md overflow-hidden'>
             <Link to={project.detailsPage} className='fill-transparent w-full h-full group2'>
-              <img src={project.image} alt={project.title} className='blur-xs group1-hover:blur-0 duration-100 w-full h-full object-cover rounded-xl' />
+              <img src={project.image} alt={project.title} className='blur-xs group1-hover:blur-0 duration-100 w-full h-full object-cover rounded-md' />
               <div 
                 className='absolute bottom-2 right-2 opacity-0 group2-hover:opacity-100 duration-200 cursor-default'
                 onClick={() => handleGitHubClick(`https://github.com/mprojr/${project.githubLink}`)}
