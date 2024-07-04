@@ -32,10 +32,13 @@ function ProjectsPage() {
             >
               <option value="All">All</option>
               <option value="JavaScript">JavaScript</option>
-              <option value="React">React</option>
+              <option value="React.js">React</option>
+              <option value="TailwindCSS">TailwindCSS</option>
               <option value="HTML">HTML</option>
               <option value="CSS">CSS</option>
-              {/* Add more options as needed */}
+              <option value="C++">C++</option>
+              <option value="C#">C#</option>
+              
             </select>
           </div>
           <div className="overflow-x-auto">
