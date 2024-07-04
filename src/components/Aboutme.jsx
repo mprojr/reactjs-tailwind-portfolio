@@ -7,8 +7,8 @@ export default function Aboutme() {
     <div className='text-black'>
       <div className='max-w-[700px] py-[20px] m-auto w-full min-h-screen text-center flex flex-col'>
 
-        <div className='m-4 grid grid-col-6 '>
-          <img src={img2720} alt='pfp' className='border-2 p-1 border-white col-span-4 w-56 h-56 rounded-full object-cover shadow-lg mx-auto hover:blur-sm duration-500'/>
+        <div className='m-4 grid grid-col-6'> 
+          <img src={img2720} alt='pfp' className='border-2 p-1 border-white col-span-4 w-56 h-56 rounded-full object-cover shadow-lg mx-auto hover:blur-sm duration-500' draggable="false"/>
         { /*           <span className='min-h-[100px] rounded-lg bg-black shadow sm:col-span-2'></span>
         */ }
         </div> 

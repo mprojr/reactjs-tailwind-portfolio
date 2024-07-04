@@ -13,7 +13,7 @@ function Topbar() {
         <div className="hidden md:flex space-x-4">
           <Link to="/" className="hover:underline">Home</Link>
           <Link to="/about" className="hover:underline">About</Link>
-          <Link to="/projects" className="hover:underline">Projects</Link>
+          <Link to="/projects-list" className="hover:underline">Projects</Link>
           <Link to="/contact" className="hover:underline">Contact</Link>
         </div>
 
@@ -54,7 +54,7 @@ function Topbar() {
         <div className="md:hidden mt-2">
           <Link to="/" className="block px-2 py-1 hover:underline">Home</Link>
           <Link to="/about" className="block px-2 py-1 hover:underline">About</Link>
-          <Link to="/projects" className="block px-2 py-1 hover:underline">Projects</Link>
+          <Link to="/projects-list" className="block px-2 py-1 hover:underline">Projects</Link>
           <Link to="/contact" className="block px-2 py-1 hover:underline">Contact</Link>
         </div>
       )}

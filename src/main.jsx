@@ -9,12 +9,14 @@ import AboutPage from './pages/AboutPage.jsx';
 import Aboutme from './components/Aboutme.jsx';
 import MidSkipper from './components/MidSkipper.jsx'
 import Projects from './components/Projects.jsx';
+import ContactPage from './pages/ContactPage.jsx';
 
 import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom';
 import './index.css';
+import ProjectsPage from './pages/ProjectsPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +37,10 @@ const router = createBrowserRouter([
         element: <AboutPage />,
       },
       {
+        path: 'projects-list',
+        element: <ProjectsPage />,
+      },
+      {
         path: 'project1',
         element: <Proj1 />,
       },
@@ -49,6 +55,10 @@ const router = createBrowserRouter([
       {
         path: '/project4',
         element: <Proj4 />,
+      },
+      {
+        path: 'contact',
+        element: <ContactPage />,
       },
     ],
   },

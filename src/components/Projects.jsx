@@ -18,7 +18,7 @@ export default function Projects() {
               <img src={project.image} alt={project.title} className='sm:blur-xs group1-hover:blur-0 duration-100 w-full h-full object-cover rounded-md' />
               <div 
                 className='absolute bottom-2 right-2 sm:opacity-0 group2-hover:opacity-100 duration-200 cursor-default'
-                onClick={() => handleGitHubClick(`https://github.com/mprojr/${project.githubLink}`)}
+                onClick={() => handleGitHubClick(project.githubLink)}
               >
                   <i className="fa-brands fa-github text-3xl text-black"></i>
               </div>
