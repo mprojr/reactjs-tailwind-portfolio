@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
 
 function ProjLayout({ children }) {
   return (
@@ -9,9 +10,7 @@ function ProjLayout({ children }) {
           {children}
         </main>
       </div>
-{/*       <footer className="bg-gray-800 text-white p-4 text-center">
-        <p>&copy; 2024 Martin Rodriguez. All rights reserved.</p>
-      </footer> */}
+      <Footer />
     </div>
   );
 }

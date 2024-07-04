@@ -10,6 +10,7 @@ import Aboutme from './components/Aboutme.jsx';
 import MidSkipper from './components/MidSkipper.jsx'
 import Projects from './components/Projects.jsx';
 import ContactPage from './pages/ContactPage.jsx';
+import Footer from './components/Footer.jsx';
 
 import {
   createBrowserRouter,
@@ -30,6 +31,7 @@ const router = createBrowserRouter([
         <Aboutme/>
         <MidSkipper />
         <Projects />
+        <Footer />
         </>,
       },
       {
