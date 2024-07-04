@@ -10,7 +10,7 @@ export const projects = [
     image: proj1Thumbnail,
     detailsPage: '/project1',
     githubLink: 'https://github.com/mprojr/lead-chrome-ext',
-    technologies: ['JavaScript', 'HTML/CSS']
+    technologies: ['JavaScript', 'HTML', 'CSS']
   },
   {
     id: 2,
