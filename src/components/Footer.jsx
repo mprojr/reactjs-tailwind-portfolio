@@ -13,7 +13,7 @@ function Footer({ children }) {
           <div>
             <h3 className="text-xl font-bold mb-4">Developer Services?</h3>
             <p className="text-gray-400">
-              Hi, I'm Martin Rodriguez, thank you for visiting the portfolio! Don't hesitate to reach out.
+              Hi, thank you for visiting the portfolio! Don't hesitate to reach out.
             </p>
           </div>
           <div>
