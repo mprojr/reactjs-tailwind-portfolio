@@ -10,7 +10,7 @@ function ProjectsPage() {
 
   return (
     <MainLayout>
-      <div className="relative p-6 max-w-5xl mx-auto mt-10 bg-white bg-opacity-55 rounded-lg shadow-lg">
+      <div className="relative sm:p-6 max-w-5xl mx-auto mt-10 bg-white bg-opacity-55 rounded-lg shadow-lg">
         <div className="relative z-10 p-4">
           <h2 className="text-3xl font-bold mb-6">Projects</h2>
           <div className="overflow-x-auto">
@@ -19,7 +19,7 @@ function ProjectsPage() {
                 <tr className="bg-gray-200">
                   <th className="border border-gray-300 p-2">ID</th>
                   <th className="border border-gray-300 p-2">Title</th>
-                  <th className="border border-gray-300 p-2">Description</th>
+                  <th className="border border-gray-300 p-2">Github</th>
                   <th className="border border-gray-300 p-2">Technologies</th>
                 </tr>
               </thead>
