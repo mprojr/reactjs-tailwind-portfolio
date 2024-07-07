@@ -13,7 +13,8 @@ export default function Projects() {
       <h1 className='flex justify-center my-4 py-2 text-gray-950 font-bold lg:text-4xl md:text-3xl sm:text-2xl text-2xl'> Personal Projects</h1>
       <div className='min-h-[300px] w-full grid py-6 gap-6 md:grid-cols-4 sm:grid-cols-3 grid-cols-2'>
         {projects.map(project => (
-          <div key={project.id} className='relative border border-spacing-1 h-[200px] transparent rounded-md overflow-hidden'>
+          <div key={project.id} className='relative border border-spacing-1 sm
+          :h-[200px] min-h-[25px] transparent rounded-md overflow-hidden'>
             <Link to={project.detailsPage} className='fill-transparent w-full h-full group2'>
               <img src={project.image} alt={project.title} className='sm:blur-xs group1-hover:blur-0 duration-100 w-full h-full object-cover rounded-md' />
               <div 
