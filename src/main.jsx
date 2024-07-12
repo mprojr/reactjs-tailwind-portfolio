@@ -11,6 +11,8 @@ import MidSkipper from './components/MidSkipper.jsx'
 import Projects from './components/Projects.jsx';
 import ContactPage from './pages/ContactPage.jsx';
 import Footer from './components/Footer.jsx';
+import Hidden from './pages/Hidden.jsx';
+
 
 import {
   createBrowserRouter,
@@ -18,6 +20,7 @@ import {
 } from 'react-router-dom';
 import './index.css';
 import ProjectsPage from './pages/ProjectsPage.jsx';
+import Login from './pages/Login.jsx';
 
 const router = createBrowserRouter([
   {
@@ -55,12 +58,20 @@ const router = createBrowserRouter([
         element: <Proj3 />,
       },
       {
-        path: '/project4',
+        path: 'project4',
         element: <Proj4 />,
       },
       {
         path: 'contact',
         element: <ContactPage />,
+      },
+      {
+        path: 'hidden',
+        element: <Hidden />,
+      },
+      {
+        path: 'login',
+        element: <Login />,
       },
     ],
   },

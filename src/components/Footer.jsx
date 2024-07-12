@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer({ children }) {
   return (
@@ -34,7 +35,8 @@ function Footer({ children }) {
           </div>
         </div>
         <div className="text-center text-gray-500 text-sm mt-8">
-          &copy; 2024 Martin Rodriguez. All rights reserved.
+          &copy; 2024 Martin Rodriguez. All rights reserved. <Link to="/hidden"><span className='flex justify-end px-3 text-[#010206]'>Roshni</span>
+          </Link>
         </div>
       </footer>
     </div>
