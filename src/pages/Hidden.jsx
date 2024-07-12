@@ -35,17 +35,17 @@ function Hidden() {
           <div className="text-pink-500 text-lg mt-4 transition-transform transform hover:scale-110 duration-1000">
             <p>To the love of my life,</p>
             <p className="mt-2">You make every moment special and magical. </p>
-            <p className='mt-2'>I dont see any moment in my future without you. </p>
-            <p className='mt-2'>Thank you for letting me love you, its the best decision i've made. </p>
-            
             <p className='mt-2'>When I see your smile, my heart melts for you always.</p>
-            <p className="mt-2">Here's to many more wonderful months and years together!</p>
+            <p className='mt-2'>I dont see any moment in my future without you. </p>
+            <p className='mt-2'>Thank you for letting me love you, its the best decision i'll ever make. </p>
+            <p className='mt-2'>I will love you till the day I die!! 🫡😈 </p>
+            <p className="mt-2">Here's to many more wonderful months and years together! 😚❤️</p>
           </div>
         </div>
         <div className="text-center text-gray-500 text-sm mt-4">
           To Roshni
         </div>
-        <div className="text-center text-gray-500 text-sm mt-4">
+        <div className="text-center text-gray-500 text-sm mt-2">
           07/20/2024
         </div>
       </div>
