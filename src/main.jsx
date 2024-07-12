@@ -11,7 +11,7 @@ import MidSkipper from './components/MidSkipper.jsx'
 import Projects from './components/Projects.jsx';
 import ContactPage from './pages/ContactPage.jsx';
 import Footer from './components/Footer.jsx';
-import Hidden from './pages/Hidden.jsx';
+import Roshni from './pages/Roshni.jsx';
 
 
 import {
@@ -66,8 +66,8 @@ const router = createBrowserRouter([
         element: <ContactPage />,
       },
       {
-        path: 'hidden',
-        element: <Hidden />,
+        path: 'roshni',
+        element: <Roshni />,
       },
       {
         path: 'login',

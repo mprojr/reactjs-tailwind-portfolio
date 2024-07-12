@@ -2,7 +2,7 @@ import React from 'react';
 import { Navigate } from 'react-router-dom';
 import { useEffect } from 'react';
 
-function Hidden() {
+function Roshni() {
   const isAuthenticated = localStorage.getItem('authenticated') === 'true';
 
   useEffect(() => {
@@ -53,4 +53,4 @@ function Hidden() {
   );
 }
 
-export default Hidden;
+export default Roshni;
