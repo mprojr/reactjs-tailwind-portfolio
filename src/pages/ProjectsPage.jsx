@@ -33,6 +33,7 @@ function ProjectsPage() {
               <option value="All">All</option>
               <option value="JavaScript">JavaScript</option>
               <option value="React.js">React</option>
+              <option value="Next.js">Next.js</option>
               <option value="TailwindCSS">TailwindCSS</option>
               <option value="HTML">HTML</option>
               <option value="CSS">CSS</option>
