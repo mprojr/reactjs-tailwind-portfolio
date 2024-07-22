@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjLayout from '../layout/ProjLayout';
-import proj3Image from '../assets/img/proj3.jpg';
+import proj3Image from '../assets/img/proj3.png';
 
 function Proj3() {
   return (

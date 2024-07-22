@@ -2,37 +2,46 @@ import proj1Thumbnail from '../assets/img/thumbnail1.png';
 import proj2Thumbnail from '../assets/img/thumbnail2.png'
 import proj3Thumbnail from '../assets/img/thumbnail3.png'
 import proj4Thumbnail from '../assets/img/thumbnail4.png'
+import proj5Thumbnail from '../assets/img/thumbnail5.png'
 
 export const projects = [
   {
     id: 1,
-    title: 'Web Chrome App',
+    title: 'Jewelry Store',
     image: proj1Thumbnail,
     detailsPage: '/project1',
+    githubLink: 'https://github.com/mprojr/nextjs13-store',
+    technologies: ['Next.js', 'TailwindCSS', 'Stripe', 'Zustand', 'HTML']
+  },
+  {
+    id: 2,
+    title: 'Web Chrome App',
+    image: proj2Thumbnail,
+    detailsPage: '/project2',
     githubLink: 'https://github.com/mprojr/lead-chrome-ext',
     technologies: ['JavaScript', 'HTML', 'CSS']
   },
   {
-    id: 2,
+    id: 3,
     title: 'Portfolio Website',
-    image: proj2Thumbnail,
-    detailsPage: '/project2',
+    image: proj3Thumbnail,
+    detailsPage: '/project3',
     githubLink: 'https://github.com/mprojr/reactjs-tailwind-portfolio',
     technologies: ['React.js', 'TailwindCSS',  'HTML']
   },
   {
-    id: 3,
+    id: 4,
     title: 'Year % Tracker',
-    image: proj3Thumbnail,
-    detailsPage: '/project3',
+    image: proj4Thumbnail,
+    detailsPage: '/project4',
     githubLink: 'https://github.com/mprojr/Current-Year-Progress',
     technologies: ['C#', '.NET', 'XAML']
   },
   {
-    id: 4,
+    id: 5,
     title: 'Unix Pipe Parsing',
-    image: proj4Thumbnail,
-    detailsPage: '/project4',
+    image: proj5Thumbnail,
+    detailsPage: '/project5',
     githubLink: 'https://github.com/mprojr/Unix-Pipe-Parsing',
     technologies: ['C++', 'Unix', 'System Programming']
   }
