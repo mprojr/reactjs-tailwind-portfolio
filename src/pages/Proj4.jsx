@@ -10,10 +10,10 @@ function Proj4() {
         {/* Text Section */}
         <div className="relative z-10 p-4">
           <h2 className="text-4xl font-extrabold mb-5 text-custom-green-dark drop-shadow-lg underline decoration-custom-green-light decoration-4">
-            Unix Pipe Parsing
+            Current Year Progress Tracker
           </h2>
           <p className="text-lg mb-4">
-            This project demonstrates the use of Unix pipes for inter-process communication. It features a C++ program that simulates data flow between processes using pipes. The project includes a parent-child process architecture where child processes perform computations and communicate results back to the parent process through pipes. This project showcases my understanding of low-level system programming and inter-process communication in Unix-like operating systems.
+            This project is a simple yet effective tool designed to track the progress of the current year. It calculates the percentage of the year that has passed and displays it in an easy-to-understand format. This application helps users visualize the passage of time throughout the year and can be a motivational tool to keep track of annual goals and milestones.
           </p>
 
           {/* Image Section */}
@@ -26,19 +26,18 @@ function Proj4() {
             <div>
               <h3 className="text-2xl font-semibold mb-2">Technologies Used</h3>
               <ul className="list-disc list-inside ml-4 mb-4">
-                <li>C++</li>
-                <li>Unix</li>
-                <li>Inter-process Communication</li>
-                <li>System Programming</li>
+                <li>C#</li>
+                <li>.NET Framework</li>
+                <li>XAML</li>
               </ul>
             </div>
             <div>
               <h3 className="text-2xl font-semibold mb-2">Key Features</h3>
               <ul className="list-disc list-inside ml-4 mb-4">
-                <li>Parent-Child Process Architecture</li>
-                <li>Data Flow Simulation</li>
-                <li>Pipe-based Communication</li>
-                <li>Debugging Capabilities</li>
+                <li>Year Progress Calculation</li>
+                <li>Simple and Intuitive UI</li>
+                <li>Real-Time Updates</li>
+                <li>Motivational Tracking</li>
               </ul>
             </div>
           </div>

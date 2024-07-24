@@ -10,10 +10,10 @@ function Proj2() {
         {/* Text Section */}
         <div className="relative z-10 p-4">
           <h2 className="text-4xl font-extrabold mb-5 text-custom-green-dark drop-shadow-lg underline decoration-custom-green-light decoration-4">
-            Personal Portfolio Website
+              Chrome Extension - Lead Tracker
           </h2>
           <p className="text-lg mb-4">
-            This project is a comprehensive portfolio website designed to showcase my skills, experiences, and projects. The website includes detailed information about myself, my background in computer science, and the various personal projects I have worked on. It serves as a professional platform where potential employers and collaborators can learn more about my capabilities and the work I have accomplished. This portfolio is an essential tool in my job search, helping to demonstrate my expertise and passion for development.
+            The Lead Tracker Chrome Extension is a simple and efficient tool designed to help users save and manage web links directly from their browser. The extension allows users to store URLs from the current tab, add custom URLs, and delete all saved links. This project demonstrates the integration of JavaScript with the Chrome API, local storage, and a responsive UI using basic HTML and CSS.
           </p>
 
           {/* Image Section */}
@@ -26,21 +26,21 @@ function Proj2() {
             <div>
               <h3 className="text-2xl font-semibold mb-2">Technologies Used</h3>
               <ul className="list-disc list-inside ml-4 mb-4">
-                <li>React.js</li>
-                <li>Tailwind CSS</li>
-                <li>JavaScript</li>
                 <li>HTML</li>
                 <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Chrome API</li>
+                <li>Local Storage</li>
               </ul>
             </div>
             <div>
               <h3 className="text-2xl font-semibold mb-2">Key Features</h3>
               <ul className="list-disc list-inside ml-4 mb-4">
-                <li>Personal Information</li>
-                <li>Project Showcase</li>
+                <li>Store URLs from the Current Tab</li>
+                <li>Add Custom URLs</li>
+                <li>Delete All Saved URLs</li>
+                <li>Local Storage Integration</li>
                 <li>Responsive Design</li>
-                <li>Interactive UI</li>
-                <li>Easy Navigation</li>
               </ul>
             </div>
           </div>
