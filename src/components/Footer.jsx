@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Footer({ children }) {
   return (
     <div className="text-black flex flex-col min-h-screen">
-      <div className="flex-grow max-w-[750px] m-auto w-full text-center flex flex-col">
+      <div className="flex-grow w-full m-auto text-center flex flex-col">
         <main className="flex-grow container mx-auto p-2">
           {children}
         </main>
