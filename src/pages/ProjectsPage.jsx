@@ -46,7 +46,6 @@ function ProjectsPage() {
             <table className="min-w-full border-collapse">
               <thead>
                 <tr className="bg-custom-green-light text-white">
-                  <th className="border border-gray-300 p-2">ID</th>
                   <th className="border border-gray-300 p-2">Title</th>
                   <th className="border border-gray-300 p-2">GitHub</th>
                   <th className="border border-gray-300 p-2">Technologies</th>
@@ -55,7 +54,6 @@ function ProjectsPage() {
               <tbody>
                 {filteredProjects.map(project => (
                   <tr key={project.id} className="even:bg-gray-100 hover:bg-custom-green-light">
-                    <td className="p-2 text-center">{project.id}</td>
                     <td className="p-2">
                       <a href={project.detailsPage} className="text-black hover:text-custom-green-dark hover:underline">
                         {project.title}

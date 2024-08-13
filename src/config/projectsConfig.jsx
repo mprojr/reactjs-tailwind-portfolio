@@ -3,8 +3,17 @@ import proj2Thumbnail from '../assets/img/thumbnail2.png'
 import proj3Thumbnail from '../assets/img/thumbnail3.png'
 import proj4Thumbnail from '../assets/img/thumbnail4.png'
 import proj5Thumbnail from '../assets/img/thumbnail5.png'
+import proj6Thumbnail from '../assets/img/thumbnail6.png'
 
 export const projects = [
+  {
+    id: 6,
+    title: 'Job Application Tracker',
+    image: proj6Thumbnail,
+    detailsPage: '/project6',
+    githubLink: 'https://github.com/mprojr/Job-Application-Tracker',
+    technologies: ['Python, Google API']
+  },
   {
     id: 1,
     title: 'Jewelry Store',
