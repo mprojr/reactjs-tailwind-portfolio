@@ -7,6 +7,7 @@ import Proj3 from './pages/Proj3.jsx';
 import Proj4 from './pages/Proj4.jsx';
 import Proj5 from './pages/Proj5.jsx';
 import Proj6 from './pages/Proj6.jsx';
+import Proj7 from './pages/Proj7.jsx';
 import AboutPage from './pages/AboutPage.jsx';
 import Aboutme from './components/Aboutme.jsx';
 import MidSkipper from './components/MidSkipper.jsx'
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
       {
         path: 'project6',
         element: <Proj6 />,
+      },
+      {
+        path: 'project7',
+        element: <Proj7 />,
       },
       {
         path: 'contact',

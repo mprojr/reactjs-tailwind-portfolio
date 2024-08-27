@@ -7,12 +7,20 @@ import proj6Thumbnail from '../assets/img/thumbnail6.png'
 
 export const projects = [
   {
+    id: 7,
+    title: 'DailyLog Journal',
+/*     image: proj6Thumbnail,
+ */    detailsPage: '/project7',
+    githubLink: 'https://github.com/mprojr/nextjs13-journal',
+    technologies: ['Next.js', 'React.js', 'TailwindCSS', 'Javascript', 'HTML', 'CSS']
+  },
+  {
     id: 6,
     title: 'Job Application Tracker',
     image: proj6Thumbnail,
     detailsPage: '/project6',
     githubLink: 'https://github.com/mprojr/Job-Application-Tracker',
-    technologies: ['Python, Google API']
+    technologies: ['Python', 'Google API']
   },
   {
     id: 1,
@@ -20,7 +28,7 @@ export const projects = [
     image: proj1Thumbnail,
     detailsPage: '/project1',
     githubLink: 'https://github.com/mprojr/nextjs13-store',
-    technologies: ['Next.js', 'TailwindCSS', 'Stripe', 'Zustand', 'HTML']
+    technologies: ['Next.js', 'TailwindCSS', 'Stripe', 'Zustand', 'HTML', 'CSS']
   },
   {
     id: 2,
@@ -36,7 +44,7 @@ export const projects = [
     image: proj3Thumbnail,
     detailsPage: '/project3',
     githubLink: 'https://github.com/mprojr/reactjs-tailwind-portfolio',
-    technologies: ['React.js', 'TailwindCSS',  'HTML']
+    technologies: ['React.js', 'TailwindCSS',  'HTML', 'CSS']
   },
   {
     id: 4,
