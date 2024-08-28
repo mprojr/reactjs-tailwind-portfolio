@@ -13,7 +13,7 @@ export const projects = [
     image: proj7Thumbnail,
     detailsPage: '/project7',
     githubLink: 'https://github.com/mprojr/nextjs13-journal',
-    technologies: ['Next.js', 'React.js', 'TailwindCSS', 'Javascript', 'HTML', 'CSS']
+    technologies: ['Next.js', 'React.js', 'TailwindCSS', 'firebase', 'Javascript', 'HTML', 'CSS']
   },
   {
     id: 6,
@@ -29,7 +29,7 @@ export const projects = [
     image: proj1Thumbnail,
     detailsPage: '/project1',
     githubLink: 'https://github.com/mprojr/nextjs13-store',
-    technologies: ['Next.js', 'TailwindCSS', 'Stripe', 'Zustand', 'HTML', 'CSS']
+    technologies: ['Next.js', 'React.js', 'TailwindCSS', 'Stripe', 'Zustand', 'HTML', 'CSS']
   },
   {
     id: 2,
