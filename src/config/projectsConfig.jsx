@@ -4,13 +4,14 @@ import proj3Thumbnail from '../assets/img/thumbnail3.png'
 import proj4Thumbnail from '../assets/img/thumbnail4.png'
 import proj5Thumbnail from '../assets/img/thumbnail5.png'
 import proj6Thumbnail from '../assets/img/thumbnail6.png'
+import proj7Thumbnail from '../assets/img/thumbnail7.png'
 
 export const projects = [
   {
     id: 7,
     title: 'DailyLog Journal',
-/*     image: proj6Thumbnail,
- */    detailsPage: '/project7',
+    image: proj7Thumbnail,
+    detailsPage: '/project7',
     githubLink: 'https://github.com/mprojr/nextjs13-journal',
     technologies: ['Next.js', 'React.js', 'TailwindCSS', 'Javascript', 'HTML', 'CSS']
   },

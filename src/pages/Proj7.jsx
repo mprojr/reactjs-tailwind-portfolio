@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjLayout from '../layout/ProjLayout';
+import Proj7Image from '../assets/img/proj7.png'
 
 function Proj7() {
   return (
@@ -13,23 +14,9 @@ function Proj7() {
             The MoodProgress Journal is a full-stack web application that allows users to track their daily moods alongside journal entries. Built with Next.js and React.js, this app provides a seamless way for users to log their feelings, monitor their emotional progress over time, and reflect on their daily experiences. The integration with Firebase ensures secure authentication and real-time data management.
           </p>
 
-          {/* Anonymized User Interface Example */}
-          <div className="bg-black text-white p-3 rounded-lg shadow-inner mt-6 overflow-x-auto">
-            <pre className="whitespace-pre-wrap text-left break-words">
-        {` /* EXAMPLE */
-        
-Date: 2024-08-21
-Mood: 😌 (Awesome)
-Journal: "Today was a great day! I managed to complete all my tasks and even had time for some relaxation."
-
-Date: 2024-08-20
-Mood: 🥲 (Sad)
-Journal: "It was a tough day today. Things didn't go as planned, but I'm hopeful for tomorrow."
-
-Date: 2024-08-19
-Mood: 😐 (Meh)
-Journal: "Today was okay. Not much happened, but I stayed productive."`}
-            </pre>
+          {/* Image Section */}
+          <div className="flex justify-center py-2 mt-6">
+            <img src={Proj7Image} alt="Project 7 Screenshot" className="md:w-4/6 h-auto rounded-2xl shadow-lg border-2" />
           </div>
 
           {/* Technologies Used */}
@@ -40,7 +27,6 @@ Journal: "Today was okay. Not much happened, but I stayed productive."`}
                 <li>Next.js</li>
                 <li>React.js</li>
                 <li>Firebase</li>
-                <li>Zustand</li>
                 <li>Tailwind CSS</li>
               </ul>
             </div>
@@ -51,7 +37,6 @@ Journal: "Today was okay. Not much happened, but I stayed productive."`}
                 <li>Real-time Data Sync with Firebase</li>
                 <li>User Authentication and Security</li>
                 <li>Responsive Design with Tailwind CSS</li>
-                <li>State Management with Zustand</li>
               </ul>
             </div>
           </div>
