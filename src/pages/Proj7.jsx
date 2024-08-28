@@ -7,8 +7,8 @@ function Proj7() {
     <ProjLayout>
       <div className="relative p-6 max-w-5xl mx-auto mt-10 bg-white bg-opacity-55 rounded-lg shadow-lg">
         <div className="relative z-10 p-4">
-          <h2 className="text-4xl font-extrabold mb-5 text-custom-green-dark drop-shadow-lg underline decoration-custom-green-light decoration-4">
-            MoodProgress Journal
+          <h2 className="text-4xl font-extrabold mb-5 text-custom-green-dark drop-shadow-lg underline decoration-custom-green-light decoration-4 hover:text-slate-800 duration-200">
+            <a href='https://dailylogg.netlify.app/' alt='DailyLog Website' target='_blank'>MoodProgress Journal</a>
           </h2>
           <p className="text-lg mb-4">
             The MoodProgress Journal is a full-stack web application that allows users to track their daily moods alongside journal entries. Built with Next.js and React.js, this app provides a seamless way for users to log their feelings, monitor their emotional progress over time, and reflect on their daily experiences. The integration with Firebase ensures secure authentication and real-time data management.
