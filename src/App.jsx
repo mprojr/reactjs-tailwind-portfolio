@@ -8,8 +8,8 @@ import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <div>
-      <ScrollToTop />
       <Topbar />
+      <ScrollToTop />
       <main>
         <Outlet />
       </main>
