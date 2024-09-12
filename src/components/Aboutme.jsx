@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter';
-import pfp from '../assets/img/PFP.jpg';
+import pfp from '../assets/img/pfp.jpg';
 
 export default function Aboutme() {
   return (
