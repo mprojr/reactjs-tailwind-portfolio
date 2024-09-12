@@ -13,7 +13,9 @@ function Topbar() {
   return (
     <nav className=" text-gray-200 p-4 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-xl font-bold">My Portfolio</h1>
+        <h1 className="text-xl font-bold hover:scale-105 duration-200">
+          <Link to="/" >My Portfolio</Link>
+          </h1>
         <div className="hidden md:flex space-x-4">
           <Link to="/" className="hover:underline">Home</Link>
           <Link to="/about" className="hover:underline">About</Link>
