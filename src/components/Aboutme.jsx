@@ -1,8 +1,17 @@
-import React from 'react'
-import { Typewriter } from 'react-simple-typewriter';
+import React, { useEffect, useState } from 'react'
 import pfp from '../assets/img/pfp.jpg';
 
 export default function Aboutme() {
+
+  const [Typewriter, setTypewriter] = useState(null);
+
+  useEffect(() => {
+    // Dynamically import `react-simple-typewriter`
+    import('react-simple-typewriter').then((module) => {
+      setTypewriter(() => module.Typewriter);
+    });
+  }, []);
+
   return (
     <div className='text-black'>
       <div className='max-w-[700px] py-[20px] m-auto w-full min-h-screen text-center flex flex-col'>
@@ -15,13 +24,17 @@ export default function Aboutme() {
         </div> 
         <h1 className='uppercase py-2 text-gray-950 font-bold lg:text-4xl md:text-3xl sm:text-2xl text-2xl'>Martin Rodriguez</h1>
         <div className='sm:text-lg md:text-xl lg:text-2xl text-gray-300 font-bold p-3 min-h-[40px]' style={{ height: '40px' }}>
-          <Typewriter
-            words={['Developer and Programmer.']}
-            loop={true}
-            typeSpeed={70}
-            deleteSpeed={50}
-            delaySpeed={2500}
-          />
+        {Typewriter ? (
+            <Typewriter
+              words={['Developer and Programmer.']}
+              loop={true}
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={2500}
+            />
+          ) : (
+            'Loading...'
+          )}
         </div>
 
         <div className='content-evenly m-3 p-3'>
