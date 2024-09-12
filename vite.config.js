@@ -5,9 +5,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: {
+    sourcemap: true,
     rollupOptions: {
       external: ['react-simple-typewriter'],
-      sourcemap: true,
     },
   },
 });
