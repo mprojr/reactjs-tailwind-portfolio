@@ -1,6 +1,3 @@
 [build]
-  command = "npm install react-simple-typewriter && npm run build"
+  command = "npm install && npm run build"
   publish = "dist"
-
-[build.environment]
-  NODE_VERSION = "16.x"
