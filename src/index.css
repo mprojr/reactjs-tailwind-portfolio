@@ -14,3 +14,21 @@ body {
 h1 {
   font-family: 'Biryani', Arial, Helvetica, sans-serif;
 }
+
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blinkCursor {
+  from { border-right-color: rgba(255, 255, 255, 0.75); }
+  to { border-right-color: transparent; }
+}
+
+.typewriter-text {
+  overflow: hidden;
+  border-right: 0.15em solid white;
+  white-space: nowrap;
+  width: 0;
+  animation: typewriter 3s steps(40, end) forwards, blinkCursor 0.75s step-end infinite;
+}
