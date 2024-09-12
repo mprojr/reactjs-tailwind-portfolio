@@ -7,9 +7,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: ['react-simple-typewriter'],
+      sourcemap: true,
     },
-  },
-  build: {
-    sourcemap: true,
   },
 });
